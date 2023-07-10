@@ -1,0 +1,15 @@
+.card{
+    animation: cards  0.5s ease-in-out   !important;
+}
+
+@keyframes cards {
+    from{
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
