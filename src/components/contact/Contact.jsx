@@ -1,4 +1,5 @@
 import React from "react";
+import './contact.css'
 import { Container, Row, Col } from "react-bootstrap";
 
 const Contact = () => {

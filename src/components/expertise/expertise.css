@@ -2,4 +2,5 @@
     padding: 150px 0;
     width: 100%;
     background: #000;
+    overflow-x: hidden;
 }

@@ -17,7 +17,7 @@ const Navigationbar = () => {
   <div id="navigation" style={NavigationStyles}>
        <Navbar expand="lg" >
     
-      <Navbar.Brand href="#home" className='d-xl-none d-md-block d-sm-block' >balajinaidu<span>.</span> -</Navbar.Brand>
+      <Navbar.Brand href="#home" className='me-5'>balajinaidu<span>.</span> -</Navbar.Brand>
    
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
      
