@@ -10,13 +10,13 @@ import Myworks from './components/mywork/Myworks';
 function App() {
   return (
     <>
-    <Container fluid>
+
     <Head/>
     <Expertise/>
     <Myworks/>
     <Experience/>
     <Contact/>
-    </Container>
+
     </>
   );
 }

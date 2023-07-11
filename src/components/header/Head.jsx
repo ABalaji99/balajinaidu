@@ -6,12 +6,7 @@ import { BsMouse3Fill } from "react-icons/bs";
 import '../header/header.css'
 
 const Head = () => {
-  const headStyle = {
-    height: "100vh",
-    position : "relative",
-    width: "100%",
-    color: "#fff",
-  };
+
 
 
   const headerTextStyles={
@@ -21,7 +16,7 @@ const Head = () => {
     bottom:"100%"
   }
   return (
-    <div id="home" style={headStyle}>
+    <div id="home">
       <Container fluid style={{ padding: "0" }}>
         <Navigationbar />
         <Container id="header-txt" style={headerTextStyles}>
